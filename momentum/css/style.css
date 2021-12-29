@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap");
+
 .hidden {
   display: none;
 }
@@ -8,12 +10,15 @@
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: ivory;
 }
 
 ul {
   display: table;
   margin-left: auto;
   margin-right: auto;
+  color:ghostwhite;
+  font-weight: 700;
 }
 
 img {
@@ -29,5 +34,30 @@ img {
 }
 
 #clock {
-  font-size: 50px;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+#greeting {
+  font-size: 25px;
+}
+
+input {
+  border: none;
+  padding: 10px 0px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  border-bottom: 2.5px solid ivory;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+body,input {
+  font-family: 'Noto Serif KR', serif;"
 }
